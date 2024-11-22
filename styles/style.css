@@ -1,1 +1,188 @@
 /* место для вашего кода */
+.header {
+
+    background-color: white;
+    display: flex;
+    padding: 92px 24px 96px 24px;
+
+}
+
+.header-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 26px;
+    gap: 10px;
+    letter-spacing: 1%;
+    line-height: auto;
+    width: 391px;
+}
+
+.header-logo {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 48px;
+
+}
+
+.header-logo-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 129px;
+    height: 104px;
+    
+}
+
+.header-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  start;
+    padding-left: 300px;
+    line-height: 24.3px;
+    
+    
+}
+
+.phone-number-style {
+    text-decoration: underline;
+}
+
+.main-content {
+    /* не понятно работает скролл, разобратья */
+   /* overflow-y: scroll;
+    scroll-behavior: smooth;*/
+}
+
+.cover {
+    width: 1100px;
+    height: 757px;
+}
+
+.cover-overlay {
+    background-color: black;
+    
+}
+
+.cover-image {
+    background-color: black;
+    opacity: 60%;
+    
+}
+
+.lots {
+
+    width: 1052px;
+    height: 692px;
+
+}
+
+.about {
+    
+    width: 1052px;
+    height: 595px;
+    display: flex;
+    /*flex-direction: column;*/
+}
+
+.about-header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 71px;
+    padding-right: 72px;
+    padding-top: 35px;
+}
+
+.about-logo-background {
+
+   /* display: flex;
+    flex-direction: column;*/
+    background-color: black;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+
+}
+.about-logo-image {
+    position: relative;
+   /* display: flex;
+    width: 141px;*/
+    justify-content: center;
+    align-content: center;
+    padding: 60px 40px 40px 40px;
+}
+.about-title {
+
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 136px 350px 100px 0;
+
+}
+
+.about-main-text {
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.about-main-text_2 {
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 180px;
+}
+.footer {
+    /*width: 1000px;*/
+    /*height: 98px;*/
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 180px 50px 88px;
+}
+
+.footer-contacts {
+
+    display: flex;
+    flex-direction: column;
+    align-items:  start;
+    line-height: 24.3px;
+    /*width: 237px;*/
+    
+}
+.footer-menu {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    /*width: 149px;*/
+}
+.footer-icons {
+
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    /*width: 48px;*/
+    height: 48px;
+    gap: 48px;
+
+}
+.footer-icons-yt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons-vk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons-pinterest {
+    display: flex;
+    justify-content: space-between;
+}
